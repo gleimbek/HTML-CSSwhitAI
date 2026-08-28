@@ -1,0 +1,35 @@
+<svg viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t5 d5">
+  <title id="t5">Responsive Breakpoints</title>
+  <desc id="d5">Three screen-size breakpoints — mobile, tablet, and desktop — with the same three content blocks stacking vertically on mobile and arranging horizontally on desktop.</desc>
+  <rect width="900" height="340" fill="#0a0a0a"/>
+
+  <!-- Mobile -->
+  <rect x="40" y="50" width="110" height="220" rx="10" fill="#141414" stroke="#9ca3af" stroke-width="1.5"/>
+  <rect x="55" y="65" width="80" height="26" rx="3" fill="#d4af37"/>
+  <rect x="55" y="98" width="80" height="26" rx="3" fill="#d4af37" opacity="0.7"/>
+  <rect x="55" y="131" width="80" height="26" rx="3" fill="#d4af37" opacity="0.45"/>
+  <text x="95" y="300" text-anchor="middle" fill="#9ca3af" font-family="sans-serif" font-size="13">Mobile · &lt; 600px</text>
+
+  <!-- Tablet -->
+  <rect x="230" y="70" width="260" height="180" rx="10" fill="#141414" stroke="#9ca3af" stroke-width="1.5"/>
+  <rect x="248" y="90" width="105" height="140" rx="3" fill="#d4af37"/>
+  <rect x="362" y="90" width="110" height="66" rx="3" fill="#d4af37" opacity="0.7"/>
+  <rect x="362" y="164" width="110" height="66" rx="3" fill="#d4af37" opacity="0.45"/>
+  <text x="360" y="300" text-anchor="middle" fill="#9ca3af" font-family="sans-serif" font-size="13">Tablet · 600–960px</text>
+
+  <!-- Desktop -->
+  <rect x="560" y="90" width="300" height="140" rx="10" fill="#141414" stroke="#9ca3af" stroke-width="1.5"/>
+  <rect x="576" y="105" width="86" height="110" rx="3" fill="#d4af37"/>
+  <rect x="670" y="105" width="86" height="110" rx="3" fill="#d4af37" opacity="0.7"/>
+  <rect x="764" y="105" width="80" height="110" rx="3" fill="#d4af37" opacity="0.45"/>
+  <text x="710" y="300" text-anchor="middle" fill="#9ca3af" font-family="sans-serif" font-size="13">Desktop · &gt; 960px</text>
+
+  <path d="M 155 160 L 225 160" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 495 160 L 555 160" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+</svg>

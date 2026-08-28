@@ -1,0 +1,22 @@
+<svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t3 d3">
+  <title id="t3">The CSS Box Model</title>
+  <desc id="d3">Nested layers showing the CSS box model: margin on the outside, then border, then padding, then the content box in the center.</desc>
+  <rect width="640" height="460" fill="#0a0a0a"/>
+
+  <!-- margin -->
+  <rect x="30" y="30" width="580" height="400" fill="none" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="45" y="52" fill="#9ca3af" font-family="sans-serif" font-size="14" font-weight="600">MARGIN</text>
+
+  <!-- border -->
+  <rect x="90" y="80" width="460" height="300" fill="#1e1e1e" stroke="#d4af37" stroke-width="3"/>
+  <text x="105" y="102" fill="#d4af37" font-family="sans-serif" font-size="14" font-weight="600">BORDER</text>
+
+  <!-- padding -->
+  <rect x="130" y="120" width="380" height="220" fill="#141414" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="145" y="142" fill="#7dd3fc" font-family="sans-serif" font-size="14" font-weight="600">PADDING</text>
+
+  <!-- content -->
+  <rect x="190" y="170" width="260" height="120" fill="#0a0a0a" stroke="#f5a97f" stroke-width="2"/>
+  <text x="320" y="222" text-anchor="middle" fill="#f5a97f" font-family="sans-serif" font-size="15" font-weight="700">CONTENT</text>
+  <text x="320" y="244" text-anchor="middle" fill="#6b7280" font-family="sans-serif" font-size="12">width × height</text>
+</svg>

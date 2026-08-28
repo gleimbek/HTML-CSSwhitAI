@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Module 08 — Lists & Tables."
+    >
+
+    <title>
+        Module 08 — Lists & Tables | HTML & CSS with AI
+    </title>
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/module.css">
+
+</head>
+
+
+<body>
+
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+            <a href="../../index.html" class="brand">
+
+                <div class="brand-mark">
+                    &lt;/&gt;
+                </div>
+
+                <div class="brand-text">
+
+                    <span class="brand-title">
+                        HTML & CSS
+                    </span>
+
+                    <span class="brand-subtitle">
+                        with AI
+                    </span>
+
+                </div>
+
+            </a>
+
+
+            <nav
+                class="main-nav"
+                aria-label="Main Navigation"
+            >
+
+                <a href="../../index.html" class="nav-link">
+                    Home
+                </a>
+
+                <a href="../../instructor-guide.html" class="nav-link">
+                    Instructor Guide
+                </a>
+
+                <a href="../../student-guide.html" class="nav-link">
+                    Student Guide
+                </a>
+
+                <a href="../../syllabus.html" class="nav-link">
+                    Syllabus
+                </a>
+
+                <a href="../../resources.html" class="nav-link">
+                    Resources
+                </a>
+
+                <a href="../../final-project.html" class="nav-link">
+                    Final Project
+                </a>
+
+            </nav>
+
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mainNavigation"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <div
+        class="mobile-nav"
+        id="mainNavigation"
+    >
+
+        <a href="../../index.html" class="mobile-nav-link">
+            Home
+        </a>
+
+        <a href="../../instructor-guide.html" class="mobile-nav-link">
+            Instructor Guide
+        </a>
+
+        <a href="../../student-guide.html" class="mobile-nav-link">
+            Student Guide
+        </a>
+
+        <a href="../../syllabus.html" class="mobile-nav-link">
+            Syllabus
+        </a>
+
+        <a href="../../resources.html" class="mobile-nav-link">
+            Resources
+        </a>
+
+        <a href="../../final-project.html" class="mobile-nav-link">
+            Final Project
+        </a>
+
+    </div>
+
+
+    <header class="module-hero">
+
+        <div class="container">
+
+            <div class="module-breadcrumb">
+
+                <a href="../../index.html">
+                    Course
+                </a>
+
+                <span>/</span>
+
+                <span>
+                    Module 08
+                </span>
+
+            </div>
+
+
+            <div class="module-label">
+                MODULE 08
+            </div>
+
+
+            <h1>
+                Lists & Tables
+            </h1>
+
+
+            <p class="module-intro">
+                Learn to structure content with lists and semantic tables — and why tables should never be used for layout.
+            </p>
+
+
+            <div class="module-meta">
+                <div class="module-meta-item">
+                    <strong>HTML</strong>
+                    <span>Core Skill</span>
+                </div>
+
+                <div class="module-meta-item">
+                    <strong>Data</strong>
+                    <span>Structure</span>
+                </div>
+
+                <div class="module-meta-item">
+                    <strong>AI</strong>
+                    <span>Learning Support</span>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="module-page">
+
+        <div class="container module-layout">
+
+            <article class="module-main">
+
+                <section id="overview" class="module-section">
+
+                    <div class="section-kicker">
+                        MODULE CONTENT
+                    </div>
+
+                    <h2>
+                        Organizing Structured Information
+                    </h2>
+
+                    <p>
+                        Lists and tables give HTML a way to represent
+                        structured information — steps, options, and
+                        tabular data — in a way that is both visually
+                        clear and machine-readable.
+                    </p>
+
+                    <p>
+                        This module also addresses a common mistake:
+                        using tables for page layout instead of for
+                        actual tabular data.
+                    </p>
+
+                </section>
+
+
+                <section id="objectives" class="module-section">
+
+                    <div class="section-kicker">
+                        LEARNING OBJECTIVES
+                    </div>
+
+                    <h2>
+                        What you will learn
+                    </h2>
+
+
+                    <div class="objective-list">
+
+                        <div class="objective-item">
+                            <span>01</span>
+                            <p>
+                                Build ordered and unordered lists.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>02</span>
+                            <p>
+                                Nest lists to represent hierarchy.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>03</span>
+                            <p>
+                                Build a semantic data table with <thead> and <tbody>.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>04</span>
+                            <p>
+                                Explain why tables should not be used for page layout.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>05</span>
+                            <p>
+                                Style lists and tables with CSS.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>06</span>
+                            <p>
+                                Use AI to convert messy data into a clean table structure.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="lists" class="module-section">
+
+                    <div class="section-kicker">
+                        LISTS
+                    </div>
+
+                    <h2>
+                        Ordered and Unordered Lists
+                    </h2>
+
+
+                    <div class="code-example">
+
+                        <div class="code-example-header">
+                            <span>index.html</span>
+                            <span>HTML</span>
+                        </div>
+
+<pre><code><ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>AI-assisted learning</li>
+</ul>
+
+<ol>
+    <li>Plan the page</li>
+    <li>Write the HTML</li>
+    <li>Style with CSS</li>
+</ol></code></pre>
+
+                    </div>
+
+                </section>
+
+
+                <section id="tables" class="module-section">
+
+                    <div class="section-kicker">
+                        TABLES
+                    </div>
+
+                    <h2>
+                        Semantic Data Tables
+                    </h2>
+
+                    <p>
+                        A table should only be used when the content is
+                        genuinely tabular — rows and columns of related
+                        data, like a grading rubric or a schedule.
+                    </p>
+
+
+                    <div class="code-example">
+
+                        <div class="code-example-header">
+                            <span>index.html</span>
+                            <span>HTML</span>
+                        </div>
+
+<pre><code><table>
+    <thead>
+        <tr>
+            <th>Module</th>
+            <th>Topic</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>08</td>
+            <td>Lists & Tables</td>
+        </tr>
+    </tbody>
+</table></code></pre>
+
+                    </div>
+
+                </section>
+
+
+                <section id="ai-exploration" class="module-section ai-learning-section">
+
+                    <div class="section-kicker ai-kicker">
+                        AI EXPLORATION
+                    </div>
+
+                    <h2>
+                        Use AI to Structure Messy Data
+                    </h2>
+
+
+                    <div class="ai-activity">
+
+                        <div class="ai-activity-header">
+
+                            <div class="ai-symbol">
+                                AI
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    EXPLORATION 01
+                                </span>
+
+                                <h3>
+                                    Convert raw data into a table
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="ai-activity-body">
+
+                            <h4>
+                                Try this prompt
+                            </h4>
+
+                            <div class="prompt-box">
+
+                                <p>
+                                    Here is a list of three course modules with their week numbers, written as plain sentences. Convert it into a semantic HTML table with a <thead> and <tbody>. Explain why you grouped the columns the way you did.
+                                </p>
+
+                            </div>
+
+
+                            <h4>
+                                Verify
+                            </h4>
+
+                            <ul>
+
+                                <li>
+                                    Check that the table reads correctly with a screen reader outline.
+                                </li>
+
+                                <li>
+                                    Confirm the table would still make sense without any CSS.
+                                </li>
+
+                                <li>
+                                    Verify no data was dropped or reordered incorrectly.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="assignment" class="module-section">
+
+                    <div class="section-kicker">
+                        ASSIGNMENT
+                    </div>
+
+                    <h2>
+                        Build a Course Schedule Page
+                    </h2>
+
+
+                    <div class="assignment-requirements">
+
+                        <div class="requirement">
+                            <strong>1</strong>
+                            <span>
+                                Create a nested list showing at least two levels of hierarchy.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>2</strong>
+                            <span>
+                                Build a semantic table with <thead> and <tbody>.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>3</strong>
+                            <span>
+                                Style the table with alternating row colors using CSS.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>4</strong>
+                            <span>
+                                Do not use a table for any layout purpose.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>5</strong>
+                            <span>
+                                Add captions or headers that make the table understandable alone.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>6</strong>
+                            <span>
+                                Document one AI-assisted data-to-table conversion.
+                            </span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="ai-review" class="module-section ai-learning-section">
+
+                    <div class="section-kicker ai-kicker">
+                        AI REVIEW
+                    </div>
+
+                    <h2>
+                        Use AI to review your structure
+                    </h2>
+
+
+                    <div class="ai-activity">
+
+                        <div class="ai-activity-header">
+
+                            <div class="ai-symbol">
+                                AI
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    REVIEW ACTIVITY
+                                </span>
+
+                                <h3>
+                                    Ask AI to check semantics, not rewrite
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="ai-activity-body">
+
+                            <div class="prompt-box">
+
+                                <p>
+                                    Here is my HTML for a course schedule table. Check whether I used <thead> and <tbody> correctly and whether the table would make sense to a screen reader user. Do not rewrite the HTML for me.
+                                </p>
+
+                            </div>
+
+
+                            <h4>
+                                Your goal
+                            </h4>
+
+                            <p>
+                                Be able to explain why you chose a table (not a list or div grid) for this specific content.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="quiz" class="module-section">
+
+                    <div class="section-kicker">
+                        KNOWLEDGE CHECK
+                    </div>
+
+                    <h2>
+                        Module Knowledge Check
+                    </h2>
+
+
+                    <div class="quiz-preview">
+
+                        <div>
+
+                            <div class="quiz-number">
+                                01
+                            </div>
+
+                            <h3>
+                                Which HTML elements group the header row and body rows of a semantic table?
+                            </h3>
+
+                            <div class="quiz-options">
+
+                                <div>
+                                    A. <code>&lt;top&gt;</code> and <code>&lt;bottom&gt;</code>
+                                </div>
+
+                                <div>
+                                    B. <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code>
+                                </div>
+
+                                <div>
+                                    C. <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code>
+                                </div>
+
+                                <div>
+                                    D. <code>&lt;tr&gt;</code> and <code>&lt;td&gt;</code>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="quiz-note">
+
+                        <div>
+
+                            <strong>
+                                Canvas implementation
+                            </strong>
+
+                            <p>
+                                The final quiz will be implemented as a Canvas Quiz rather than as part of this informational page.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="reflection" class="module-section">
+
+                    <div class="section-kicker">
+                        REFLECTION
+                    </div>
+
+                    <h2>
+                        Think About Your Process
+                    </h2>
+
+
+                    <div class="reflection-grid">
+
+                        <div class="reflection-card">
+                            <span>01</span>
+                            <p>
+                                Can I explain when to use a list versus a table?
+                            </p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <span>02</span>
+                            <p>
+                                Can I build a semantic table with proper header structure?
+                            </p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <span>03</span>
+                            <p>
+                                Can I identify table-based layout as an outdated practice?
+                            </p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <span>04</span>
+                            <p>
+                                Can I check an AI-generated table for correctness?
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- MODULE NAVIGATION -->
+
+                <section class="module-navigation">
+
+                    <div>
+
+                        <span class="section-label">
+                            NEXT MODULE
+                        </span>
+
+                        <h2>
+                            Module 09 — Responsive Design
+                        </h2>
+
+                        <p>
+                            Next, you will make every layout you have built work on any screen size.
+                        </p>
+
+                    </div>
+
+                    <div class="module-nav-actions">
+                        <a
+                            href="../module-07/module-07.html"
+                            class="btn btn-secondary"
+                        >
+                            ← Back to Module 07
+                        </a>
+
+
+                        <a
+                            href="../module-09/module-09.html"
+                            class="btn btn-primary"
+                        >
+                            Continue to Module 09 →
+                        </a>
+
+                    </div>
+
+                </section>
+
+
+            </article>
+
+
+            <!-- SIDEBAR -->
+
+            <aside
+                class="module-sidebar"
+                aria-label="Module Content"
+            >
+
+                <div class="sidebar-sticky">
+
+                    <div class="sidebar-title">
+                        MODULE CONTENT
+                    </div>
+
+
+                    <nav class="module-content-nav">
+                        <a href="#overview" class="module-content-link active">
+                            <span>01</span>
+                            Overview
+                        </a>
+
+                        <a href="#objectives" class="module-content-link">
+                            <span>02</span>
+                            Objectives
+                        </a>
+
+                        <a href="#lists" class="module-content-link">
+                            <span>03</span>
+                            Lists
+                        </a>
+
+                        <a href="#tables" class="module-content-link">
+                            <span>04</span>
+                            Tables
+                        </a>
+
+                        <a href="#ai-exploration" class="module-content-link ai-link">
+                            <span>05</span>
+                            AI Exploration
+                        </a>
+
+                        <a href="#assignment" class="module-content-link">
+                            <span>06</span>
+                            Assignment
+                        </a>
+
+                        <a href="#ai-review" class="module-content-link ai-link">
+                            <span>07</span>
+                            AI Review
+                        </a>
+
+                        <a href="#quiz" class="module-content-link">
+                            <span>08</span>
+                            Quiz
+                        </a>
+
+                        <a href="#reflection" class="module-content-link">
+                            <span>09</span>
+                            Reflection
+                        </a>
+
+
+                    </nav>
+
+
+                    <div class="sidebar-progress">
+
+                        <div class="progress-label">
+
+                            <span>
+                                MODULE 08
+                            </span>
+
+                            <span>
+                                HTML
+                            </span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div
+                                class="progress-value"
+                                style="width: 93%;"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="container footer-bottom">
+
+            <p>
+                HTML & CSS with AI
+            </p>
+
+            <p>
+                CIT 151 • Fall 2026
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="../../js/main.js"></script>
+
+</body>
+
+</html>

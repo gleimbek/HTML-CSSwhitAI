@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Module 10 — Web Forms."
+    >
+
+    <title>
+        Module 10 — Web Forms | HTML & CSS with AI
+    </title>
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/module.css">
+
+</head>
+
+
+<body>
+
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+            <a href="../../index.html" class="brand">
+
+                <div class="brand-mark">
+                    &lt;/&gt;
+                </div>
+
+                <div class="brand-text">
+
+                    <span class="brand-title">
+                        HTML & CSS
+                    </span>
+
+                    <span class="brand-subtitle">
+                        with AI
+                    </span>
+
+                </div>
+
+            </a>
+
+
+            <nav
+                class="main-nav"
+                aria-label="Main Navigation"
+            >
+
+                <a href="../../index.html" class="nav-link">
+                    Home
+                </a>
+
+                <a href="../../instructor-guide.html" class="nav-link">
+                    Instructor Guide
+                </a>
+
+                <a href="../../student-guide.html" class="nav-link">
+                    Student Guide
+                </a>
+
+                <a href="../../syllabus.html" class="nav-link">
+                    Syllabus
+                </a>
+
+                <a href="../../resources.html" class="nav-link">
+                    Resources
+                </a>
+
+                <a href="../../final-project.html" class="nav-link">
+                    Final Project
+                </a>
+
+            </nav>
+
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mainNavigation"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <div
+        class="mobile-nav"
+        id="mainNavigation"
+    >
+
+        <a href="../../index.html" class="mobile-nav-link">
+            Home
+        </a>
+
+        <a href="../../instructor-guide.html" class="mobile-nav-link">
+            Instructor Guide
+        </a>
+
+        <a href="../../student-guide.html" class="mobile-nav-link">
+            Student Guide
+        </a>
+
+        <a href="../../syllabus.html" class="mobile-nav-link">
+            Syllabus
+        </a>
+
+        <a href="../../resources.html" class="mobile-nav-link">
+            Resources
+        </a>
+
+        <a href="../../final-project.html" class="mobile-nav-link">
+            Final Project
+        </a>
+
+    </div>
+
+
+    <header class="module-hero">
+
+        <div class="container">
+
+            <div class="module-breadcrumb">
+
+                <a href="../../index.html">
+                    Course
+                </a>
+
+                <span>/</span>
+
+                <span>
+                    Module 10
+                </span>
+
+            </div>
+
+
+            <div class="module-label">
+                MODULE 10
+            </div>
+
+
+            <h1>
+                Web Forms
+            </h1>
+
+
+            <p class="module-intro">
+                Learn to build accessible HTML forms that collect user input correctly and work for every visitor.
+            </p>
+
+
+            <div class="module-meta">
+                <div class="module-meta-item">
+                    <strong>HTML</strong>
+                    <span>Core Skill</span>
+                </div>
+
+                <div class="module-meta-item">
+                    <strong>Forms</strong>
+                    <span>Interaction</span>
+                </div>
+
+                <div class="module-meta-item">
+                    <strong>AI</strong>
+                    <span>Learning Support</span>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="module-page">
+
+        <div class="container module-layout">
+
+            <article class="module-main">
+
+                <section id="overview" class="module-section">
+
+                    <div class="section-kicker">
+                        MODULE CONTENT
+                    </div>
+
+                    <h2>
+                        Collecting Input from Users
+                    </h2>
+
+                    <p>
+                        Forms are how webpages collect information —
+                        contact details, sign-ups, search queries. This
+                        final content module covers building an
+                        accessible, well-structured HTML form.
+                    </p>
+
+                </section>
+
+
+                <section id="objectives" class="module-section">
+
+                    <div class="section-kicker">
+                        LEARNING OBJECTIVES
+                    </div>
+
+                    <h2>
+                        What you will learn
+                    </h2>
+
+
+                    <div class="objective-list">
+
+                        <div class="objective-item">
+                            <span>01</span>
+                            <p>
+                                Build a <form> with labeled input fields.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>02</span>
+                            <p>
+                                Use appropriate input types (text, email, checkbox, etc.).
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>03</span>
+                            <p>
+                                Connect <label> to inputs with the for/id relationship.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>04</span>
+                            <p>
+                                Apply basic client-side validation attributes.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>05</span>
+                            <p>
+                                Style form elements and their focus states.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>06</span>
+                            <p>
+                                Use AI to review a form for accessibility gaps.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="form-elements" class="module-section">
+
+                    <div class="section-kicker">
+                        FORM ELEMENTS
+                    </div>
+
+                    <h2>
+                        Building the Form Structure
+                    </h2>
+
+
+                    <div class="code-example">
+
+                        <div class="code-example-header">
+                            <span>index.html</span>
+                            <span>HTML</span>
+                        </div>
+
+<pre><code><form>
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="submit">Send</button>
+</form></code></pre>
+
+                    </div>
+
+
+                    <figure class="module-figure">
+
+                        <img
+                            src="../../images/form-structure-diagram.svg"
+                            alt="Diagram of a simple contact form showing each label connected by a line to its matching input field, with a submit button below."
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            Every input needs a connected label — this is required for both usability and screen reader accessibility.
+                        </figcaption>
+
+                    </figure>
+
+                </section>
+
+
+                <section id="validation-and-styling" class="module-section">
+
+                    <div class="section-kicker">
+                        VALIDATION & STYLING
+                    </div>
+
+                    <h2>
+                        Guiding the User
+                    </h2>
+
+
+                    <div class="code-example">
+
+                        <div class="code-example-header">
+                            <span>style.css</span>
+                            <span>CSS</span>
+                        </div>
+
+<pre><code>input:focus {
+    outline: 2px solid #d4af37;
+    outline-offset: 2px;
+}
+
+input:invalid {
+    border-color: #c0392b;
+}</code></pre>
+
+                    </div>
+
+                    <p>
+                        The <code>required</code> attribute triggers
+                        built-in browser validation. Visible focus
+                        states are essential for keyboard users.
+                    </p>
+
+                </section>
+
+
+                <section id="ai-exploration" class="module-section ai-learning-section">
+
+                    <div class="section-kicker ai-kicker">
+                        AI EXPLORATION
+                    </div>
+
+                    <h2>
+                        Use AI to Explore Input Types
+                    </h2>
+
+
+                    <div class="ai-activity">
+
+                        <div class="ai-activity-header">
+
+                            <div class="ai-symbol">
+                                AI
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    EXPLORATION 01
+                                </span>
+
+                                <h3>
+                                    Choose the right input type
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="ai-activity-body">
+
+                            <h4>
+                                Try this prompt
+                            </h4>
+
+                            <div class="prompt-box">
+
+                                <p>
+                                    I need a form field for a phone number, a birthdate, and a preferred contact method. Suggest the most appropriate HTML input type for each and explain why. Do not write the full form for me.
+                                </p>
+
+                            </div>
+
+
+                            <h4>
+                                Verify
+                            </h4>
+
+                            <ul>
+
+                                <li>
+                                    Test each suggested input type in the browser.
+                                </li>
+
+                                <li>
+                                    Confirm the on-screen keyboard changes correctly on mobile.
+                                </li>
+
+                                <li>
+                                    Check that each choice actually fits the data being collected.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="assignment" class="module-section">
+
+                    <div class="section-kicker">
+                        ASSIGNMENT
+                    </div>
+
+                    <h2>
+                        Build an Accessible Contact Form
+                    </h2>
+
+
+                    <div class="assignment-requirements">
+
+                        <div class="requirement">
+                            <strong>1</strong>
+                            <span>
+                                Create a form with at least five different input types.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>2</strong>
+                            <span>
+                                Connect every input to a <label> using for/id.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>3</strong>
+                            <span>
+                                Add required attributes where appropriate.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>4</strong>
+                            <span>
+                                Style visible focus states for all interactive elements.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>5</strong>
+                            <span>
+                                Ensure the form is fully usable with keyboard only (Tab key).
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>6</strong>
+                            <span>
+                                Document one AI-assisted decision about input type or validation.
+                            </span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="ai-review" class="module-section ai-learning-section">
+
+                    <div class="section-kicker ai-kicker">
+                        AI REVIEW
+                    </div>
+
+                    <h2>
+                        Use AI to audit accessibility
+                    </h2>
+
+
+                    <div class="ai-activity">
+
+                        <div class="ai-activity-header">
+
+                            <div class="ai-symbol">
+                                AI
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    REVIEW ACTIVITY
+                                </span>
+
+                                <h3>
+                                    Ask AI to audit, not rebuild
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="ai-activity-body">
+
+                            <div class="prompt-box">
+
+                                <p>
+                                    Here is the HTML for my contact form. Check that every input has a properly connected label and flag any accessibility issues. Do not rewrite the form for me.
+                                </p>
+
+                            </div>
+
+
+                            <h4>
+                                Your goal
+                            </h4>
+
+                            <p>
+                                Be able to navigate your entire form using only the Tab key and explain what happens at each stop.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="quiz" class="module-section">
+
+                    <div class="section-kicker">
+                        KNOWLEDGE CHECK
+                    </div>
+
+                    <h2>
+                        Module Knowledge Check
+                    </h2>
+
+
+                    <div class="quiz-preview">
+
+                        <div>
+
+                            <div class="quiz-number">
+                                01
+                            </div>
+
+                            <h3>
+                                How does a <code>&lt;label&gt;</code> connect to its input field?
+                            </h3>
+
+                            <div class="quiz-options">
+
+                                <div>
+                                    A. By being placed directly above the input
+                                </div>
+
+                                <div>
+                                    B. Through matching <code>for</code> and <code>id</code> attributes
+                                </div>
+
+                                <div>
+                                    C. By using the same <code>name</code> attribute
+                                </div>
+
+                                <div>
+                                    D. Labels connect automatically without any attribute
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="quiz-note">
+
+                        <div>
+
+                            <strong>
+                                Canvas implementation
+                            </strong>
+
+                            <p>
+                                The final quiz will be implemented as a Canvas Quiz rather than as part of this informational page.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="reflection" class="module-section">
+
+                    <div class="section-kicker">
+                        REFLECTION
+                    </div>
+
+                    <h2>
+                        Think About Your Process
+                    </h2>
+
+
+                    <div class="reflection-grid">
+
+                        <div class="reflection-card">
+                            <span>01</span>
+                            <p>
+                                Can I explain why for/id matters for accessibility?
+                            </p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <span>02</span>
+                            <p>
+                                Can I choose an appropriate input type for a given data field?
+                            </p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <span>03</span>
+                            <p>
+                                Can I navigate any form I build using only a keyboard?
+                            </p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <span>04</span>
+                            <p>
+                                Looking back across all 10 modules, can I explain when to verify AI output versus trust it?
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- MODULE NAVIGATION -->
+
+                <section class="module-navigation">
+
+                    <div>
+
+                        <span class="section-label">
+                            NEXT MODULE
+                        </span>
+
+                        <h2>
+                            Final Project
+                        </h2>
+
+                        <p>
+                            You have completed every content module. Apply everything you have learned in the Final Project.
+                        </p>
+
+                    </div>
+
+                    <div class="module-nav-actions">
+                        <a
+                            href="../module-09/module-09.html"
+                            class="btn btn-secondary"
+                        >
+                            ← Back to Module 09
+                        </a>
+
+
+                        <a
+                            href="../../final-project.html"
+                            class="btn btn-primary"
+                        >
+                            Continue to Final Project →
+                        </a>
+
+                    </div>
+
+                </section>
+
+
+            </article>
+
+
+            <!-- SIDEBAR -->
+
+            <aside
+                class="module-sidebar"
+                aria-label="Module Content"
+            >
+
+                <div class="sidebar-sticky">
+
+                    <div class="sidebar-title">
+                        MODULE CONTENT
+                    </div>
+
+
+                    <nav class="module-content-nav">
+                        <a href="#overview" class="module-content-link active">
+                            <span>01</span>
+                            Overview
+                        </a>
+
+                        <a href="#objectives" class="module-content-link">
+                            <span>02</span>
+                            Objectives
+                        </a>
+
+                        <a href="#form-elements" class="module-content-link">
+                            <span>03</span>
+                            Form Elements
+                        </a>
+
+                        <a href="#validation-and-styling" class="module-content-link">
+                            <span>04</span>
+                            Validation & Styling
+                        </a>
+
+                        <a href="#ai-exploration" class="module-content-link ai-link">
+                            <span>05</span>
+                            AI Exploration
+                        </a>
+
+                        <a href="#assignment" class="module-content-link">
+                            <span>06</span>
+                            Assignment
+                        </a>
+
+                        <a href="#ai-review" class="module-content-link ai-link">
+                            <span>07</span>
+                            AI Review
+                        </a>
+
+                        <a href="#quiz" class="module-content-link">
+                            <span>08</span>
+                            Quiz
+                        </a>
+
+                        <a href="#reflection" class="module-content-link">
+                            <span>09</span>
+                            Reflection
+                        </a>
+
+
+                    </nav>
+
+
+                    <div class="sidebar-progress">
+
+                        <div class="progress-label">
+
+                            <span>
+                                MODULE 10
+                            </span>
+
+                            <span>
+                                HTML
+                            </span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div
+                                class="progress-value"
+                                style="width: 100%;"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="container footer-bottom">
+
+            <p>
+                HTML & CSS with AI
+            </p>
+
+            <p>
+                CIT 151 • Fall 2026
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="../../js/main.js"></script>
+
+</body>
+
+</html>

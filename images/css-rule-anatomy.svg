@@ -1,0 +1,33 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t2 d2">
+  <title id="t2">Anatomy of a CSS Rule</title>
+  <desc id="d2">The CSS rule h1 { color: navy; } with labeled parts: h1 is the selector, color is the property, and navy is the value.</desc>
+  <rect width="800" height="300" fill="#0a0a0a"/>
+
+  <text x="60" y="150" font-family="monospace" font-size="34" fill="#f5f5f5">
+    <tspan fill="#d4af37" font-weight="bold">h1</tspan>
+    <tspan fill="#e5e5e5"> { </tspan>
+    <tspan fill="#7dd3fc">color</tspan>
+    <tspan fill="#e5e5e5">: </tspan>
+    <tspan fill="#f5a97f">navy</tspan>
+    <tspan fill="#e5e5e5">; }</tspan>
+  </text>
+
+  <!-- Selector label -->
+  <line x1="75" y1="165" x2="75" y2="205" stroke="#d4af37" stroke-width="2"/>
+  <text x="75" y="228" text-anchor="middle" fill="#d4af37" font-family="sans-serif" font-size="15" font-weight="600">SELECTOR</text>
+  <text x="75" y="248" text-anchor="middle" fill="#9ca3af" font-family="sans-serif" font-size="12">what to style</text>
+
+  <!-- Property label -->
+  <line x1="295" y1="165" x2="295" y2="205" stroke="#7dd3fc" stroke-width="2"/>
+  <text x="295" y="228" text-anchor="middle" fill="#7dd3fc" font-family="sans-serif" font-size="15" font-weight="600">PROPERTY</text>
+  <text x="295" y="248" text-anchor="middle" fill="#9ca3af" font-family="sans-serif" font-size="12">what to change</text>
+
+  <!-- Value label -->
+  <line x1="470" y1="165" x2="470" y2="205" stroke="#f5a97f" stroke-width="2"/>
+  <text x="470" y="228" text-anchor="middle" fill="#f5a97f" font-family="sans-serif" font-size="15" font-weight="600">VALUE</text>
+  <text x="470" y="248" text-anchor="middle" fill="#9ca3af" font-family="sans-serif" font-size="12">the new setting</text>
+
+  <!-- Declaration bracket -->
+  <path d="M 190 190 L 190 270 L 590 270 L 590 190" stroke="#4b5563" stroke-width="1.5" fill="none"/>
+  <text x="390" y="290" text-anchor="middle" fill="#6b7280" font-family="sans-serif" font-size="12">DECLARATION</text>
+</svg>

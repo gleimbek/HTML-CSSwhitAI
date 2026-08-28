@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Module 06 — Links & Navigation."
+    >
+
+    <title>
+        Module 06 — Links & Navigation | HTML & CSS with AI
+    </title>
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/module.css">
+
+</head>
+
+
+<body>
+
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+            <a href="../../index.html" class="brand">
+
+                <div class="brand-mark">
+                    &lt;/&gt;
+                </div>
+
+                <div class="brand-text">
+
+                    <span class="brand-title">
+                        HTML & CSS
+                    </span>
+
+                    <span class="brand-subtitle">
+                        with AI
+                    </span>
+
+                </div>
+
+            </a>
+
+
+            <nav
+                class="main-nav"
+                aria-label="Main Navigation"
+            >
+
+                <a href="../../index.html" class="nav-link">
+                    Home
+                </a>
+
+                <a href="../../instructor-guide.html" class="nav-link">
+                    Instructor Guide
+                </a>
+
+                <a href="../../student-guide.html" class="nav-link">
+                    Student Guide
+                </a>
+
+                <a href="../../syllabus.html" class="nav-link">
+                    Syllabus
+                </a>
+
+                <a href="../../resources.html" class="nav-link">
+                    Resources
+                </a>
+
+                <a href="../../final-project.html" class="nav-link">
+                    Final Project
+                </a>
+
+            </nav>
+
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mainNavigation"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <div
+        class="mobile-nav"
+        id="mainNavigation"
+    >
+
+        <a href="../../index.html" class="mobile-nav-link">
+            Home
+        </a>
+
+        <a href="../../instructor-guide.html" class="mobile-nav-link">
+            Instructor Guide
+        </a>
+
+        <a href="../../student-guide.html" class="mobile-nav-link">
+            Student Guide
+        </a>
+
+        <a href="../../syllabus.html" class="mobile-nav-link">
+            Syllabus
+        </a>
+
+        <a href="../../resources.html" class="mobile-nav-link">
+            Resources
+        </a>
+
+        <a href="../../final-project.html" class="mobile-nav-link">
+            Final Project
+        </a>
+
+    </div>
+
+
+    <header class="module-hero">
+
+        <div class="container">
+
+            <div class="module-breadcrumb">
+
+                <a href="../../index.html">
+                    Course
+                </a>
+
+                <span>/</span>
+
+                <span>
+                    Module 06
+                </span>
+
+            </div>
+
+
+            <div class="module-label">
+                MODULE 06
+            </div>
+
+
+            <h1>
+                Links & Navigation
+            </h1>
+
+
+            <p class="module-intro">
+                Learn how to connect multiple HTML pages with hyperlinks and build a working, accessible site navigation.
+            </p>
+
+
+            <div class="module-meta">
+                <div class="module-meta-item">
+                    <strong>HTML</strong>
+                    <span>Core Skill</span>
+                </div>
+
+                <div class="module-meta-item">
+                    <strong>Navigation</strong>
+                    <span>Structure</span>
+                </div>
+
+                <div class="module-meta-item">
+                    <strong>AI</strong>
+                    <span>Learning Support</span>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="module-page">
+
+        <div class="container module-layout">
+
+            <article class="module-main">
+
+                <section id="overview" class="module-section">
+
+                    <div class="section-kicker">
+                        MODULE CONTENT
+                    </div>
+
+                    <h2>
+                        Connecting Pages Together
+                    </h2>
+
+                    <p>
+                        A website is more than a single page — it is a
+                        set of pages connected through links. This
+                        module focuses on building working navigation
+                        between multiple HTML documents.
+                    </p>
+
+                    <p>
+                        Students will practice absolute and relative
+                        paths, external links, and accessible navigation
+                        markup.
+                    </p>
+
+                </section>
+
+
+                <section id="objectives" class="module-section">
+
+                    <div class="section-kicker">
+                        LEARNING OBJECTIVES
+                    </div>
+
+                    <h2>
+                        What you will learn
+                    </h2>
+
+
+                    <div class="objective-list">
+
+                        <div class="objective-item">
+                            <span>01</span>
+                            <p>
+                                Create hyperlinks with the anchor element.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>02</span>
+                            <p>
+                                Distinguish relative paths from absolute URLs.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>03</span>
+                            <p>
+                                Link to another page, a section on the same page, and an external site.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>04</span>
+                            <p>
+                                Build a semantic <nav> element with a list of links.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>05</span>
+                            <p>
+                                Style link states: default, hover, and visited.
+                            </p>
+                        </div>
+
+                        <div class="objective-item">
+                            <span>06</span>
+                            <p>
+                                Use AI to debug a broken relative path.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="hyperlinks" class="module-section">
+
+                    <div class="section-kicker">
+                        HYPERLINKS
+                    </div>
+
+                    <h2>
+                        The Anchor Element
+                    </h2>
+
+                    <p>
+                        Every link on the web is built with the
+                        <code>&lt;a&gt;</code> element and its
+                        <code>href</code> attribute.
+                    </p>
+
+
+                    <div class="code-example">
+
+                        <div class="code-example-header">
+                            <span>index.html</span>
+                            <span>HTML</span>
+                        </div>
+
+<pre><code><a href="about.html">About</a>
+<a href="https://developer.mozilla.org">MDN</a>
+<a href="#contact">Jump to Contact</a></code></pre>
+
+                    </div>
+
+                    <p>
+                        A relative path (<code>about.html</code>) points
+                        to a file inside the same project. An absolute
+                        URL points to a page on another domain
+                        entirely.
+                    </p>
+
+                </section>
+
+
+                <section id="navigation-patterns" class="module-section">
+
+                    <div class="section-kicker">
+                        NAVIGATION
+                    </div>
+
+                    <h2>
+                        Building a Nav Bar
+                    </h2>
+
+                    <p>
+                        Grouping links inside a <code>&lt;nav&gt;</code>
+                        element tells both browsers and assistive
+                        technology that this is a navigation region of
+                        the page.
+                    </p>
+
+
+                    <div class="code-example">
+
+                        <div class="code-example-header">
+                            <span>index.html</span>
+                            <span>HTML</span>
+                        </div>
+
+<pre><code><nav aria-label="Main Navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav></code></pre>
+
+                    </div>
+
+
+                    <div class="code-example">
+
+                        <div class="code-example-header">
+                            <span>style.css</span>
+                            <span>CSS</span>
+                        </div>
+
+<pre><code>nav a:hover {
+    color: #d4af37;
+    text-decoration: underline;
+}</code></pre>
+
+                    </div>
+
+                </section>
+
+
+                <section id="ai-exploration" class="module-section ai-learning-section">
+
+                    <div class="section-kicker ai-kicker">
+                        AI EXPLORATION
+                    </div>
+
+                    <h2>
+                        Use AI to Debug a Broken Link
+                    </h2>
+
+
+                    <div class="ai-activity">
+
+                        <div class="ai-activity-header">
+
+                            <div class="ai-symbol">
+                                AI
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    EXPLORATION 01
+                                </span>
+
+                                <h3>
+                                    Diagnose a broken relative path
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="ai-activity-body">
+
+                            <h4>
+                                Try this prompt
+                            </h4>
+
+                            <div class="prompt-box">
+
+                                <p>
+                                    My link <code>&lt;a href="images/photo.png"&gt;</code> is not working from a page inside a subfolder. List the most common reasons a relative path breaks. Do not just tell me the fix.
+                                </p>
+
+                            </div>
+
+
+                            <h4>
+                                Verify
+                            </h4>
+
+                            <ul>
+
+                                <li>
+                                    Check the actual folder structure of the project.
+                                </li>
+
+                                <li>
+                                    Trace the path manually, one folder at a time.
+                                </li>
+
+                                <li>
+                                    Confirm the fix in the browser before moving on.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="assignment" class="module-section">
+
+                    <div class="section-kicker">
+                        ASSIGNMENT
+                    </div>
+
+                    <h2>
+                        Build a Three-Page Site
+                    </h2>
+
+
+                    <div class="assignment-requirements">
+
+                        <div class="requirement">
+                            <strong>1</strong>
+                            <span>
+                                Create three linked HTML pages (Home, About, Contact).
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>2</strong>
+                            <span>
+                                Add a shared <nav> to all three pages.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>3</strong>
+                            <span>
+                                Use relative paths for all internal links.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>4</strong>
+                            <span>
+                                Include at least one external link that opens correctly.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>5</strong>
+                            <span>
+                                Add one same-page jump link using an id and #anchor.
+                            </span>
+                        </div>
+
+                        <div class="requirement">
+                            <strong>6</strong>
+                            <span>
+                                Document one AI-assisted debugging session for a broken link.
+                            </span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="ai-review" class="module-section ai-learning-section">
+
+                    <div class="section-kicker ai-kicker">
+                        AI REVIEW
+                    </div>
+
+                    <h2>
+                        Use AI to review your navigation
+                    </h2>
+
+
+                    <div class="ai-activity">
+
+                        <div class="ai-activity-header">
+
+                            <div class="ai-symbol">
+                                AI
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    REVIEW ACTIVITY
+                                </span>
+
+                                <h3>
+                                    Ask AI to check, not build
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="ai-activity-body">
+
+                            <div class="prompt-box">
+
+                                <p>
+                                    Here is the HTML for my navigation bar across three pages. Check whether my relative paths are consistent and whether my nav is accessible. Do not rewrite the HTML for me.
+                                </p>
+
+                            </div>
+
+
+                            <h4>
+                                Your goal
+                            </h4>
+
+                            <p>
+                                Be able to explain, without the AI, why each of your paths is written the way it is.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="quiz" class="module-section">
+
+                    <div class="section-kicker">
+                        KNOWLEDGE CHECK
+                    </div>
+
+                    <h2>
+                        Module Knowledge Check
+                    </h2>
+
+
+                    <div class="quiz-preview">
+
+                        <div>
+
+                            <div class="quiz-number">
+                                01
+                            </div>
+
+                            <h3>
+                                Which path correctly links from <code>modules/module-06.html</code> back to a root-level <code>index.html</code>?
+                            </h3>
+
+                            <div class="quiz-options">
+
+                                <div>
+                                    A. <code>index.html</code>
+                                </div>
+
+                                <div>
+                                    B. <code>../index.html</code>
+                                </div>
+
+                                <div>
+                                    C. <code>./index.html</code>
+                                </div>
+
+                                <div>
+                                    D. <code>/modules/index.html</code>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="quiz-note">
+
+                        <div>
+
+                            <strong>
+                                Canvas implementation
+                            </strong>
+
+                            <p>
+                                The final quiz will be implemented as a Canvas Quiz rather than as part of this informational page.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section id="reflection" class="module-section">
+
+                    <div class="section-kicker">
+                        REFLECTION
+                    </div>
+
+                    <h2>
+                        Think About Your Process
+                    </h2>
+
+
+                    <div class="reflection-grid">
+
+                        <div class="reflection-card">
+                            <span>01</span>
+                            <p>
+                                Can I explain the difference between a relative and absolute path?
+                            </p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <span>02</span>
+                            <p>
+                                Can I build a working nav bar across multiple pages?
+                            </p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <span>03</span>
+                            <p>
+                                Can I trace a broken link manually before asking AI for help?
+                            </p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <span>04</span>
+                            <p>
+                                Can I write accessible navigation markup?
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- MODULE NAVIGATION -->
+
+                <section class="module-navigation">
+
+                    <div>
+
+                        <span class="section-label">
+                            NEXT MODULE
+                        </span>
+
+                        <h2>
+                            Module 07 — Images & Media
+                        </h2>
+
+                        <p>
+                            Next, you will bring pages to life with images and media.
+                        </p>
+
+                    </div>
+
+                    <div class="module-nav-actions">
+                        <a
+                            href="../module-05/module-05.html"
+                            class="btn btn-secondary"
+                        >
+                            ← Back to Module 05
+                        </a>
+
+
+                        <a
+                            href="../module-07/module-07.html"
+                            class="btn btn-primary"
+                        >
+                            Continue to Module 07 →
+                        </a>
+
+                    </div>
+
+                </section>
+
+
+            </article>
+
+
+            <!-- SIDEBAR -->
+
+            <aside
+                class="module-sidebar"
+                aria-label="Module Content"
+            >
+
+                <div class="sidebar-sticky">
+
+                    <div class="sidebar-title">
+                        MODULE CONTENT
+                    </div>
+
+
+                    <nav class="module-content-nav">
+                        <a href="#overview" class="module-content-link active">
+                            <span>01</span>
+                            Overview
+                        </a>
+
+                        <a href="#objectives" class="module-content-link">
+                            <span>02</span>
+                            Objectives
+                        </a>
+
+                        <a href="#hyperlinks" class="module-content-link">
+                            <span>03</span>
+                            Hyperlinks
+                        </a>
+
+                        <a href="#navigation-patterns" class="module-content-link">
+                            <span>04</span>
+                            Navigation
+                        </a>
+
+                        <a href="#ai-exploration" class="module-content-link ai-link">
+                            <span>05</span>
+                            AI Exploration
+                        </a>
+
+                        <a href="#assignment" class="module-content-link">
+                            <span>06</span>
+                            Assignment
+                        </a>
+
+                        <a href="#ai-review" class="module-content-link ai-link">
+                            <span>07</span>
+                            AI Review
+                        </a>
+
+                        <a href="#quiz" class="module-content-link">
+                            <span>08</span>
+                            Quiz
+                        </a>
+
+                        <a href="#reflection" class="module-content-link">
+                            <span>09</span>
+                            Reflection
+                        </a>
+
+
+                    </nav>
+
+
+                    <div class="sidebar-progress">
+
+                        <div class="progress-label">
+
+                            <span>
+                                MODULE 06
+                            </span>
+
+                            <span>
+                                HTML
+                            </span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div
+                                class="progress-value"
+                                style="width: 85%;"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="container footer-bottom">
+
+            <p>
+                HTML & CSS with AI
+            </p>
+
+            <p>
+                CIT 151 • Fall 2026
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="../../js/main.js"></script>
+
+</body>
+
+</html>

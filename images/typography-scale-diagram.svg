@@ -1,0 +1,24 @@
+<svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t4 d4">
+  <title id="t4">Typographic Scale</title>
+  <desc id="d4">A typographic scale showing progressively larger text sizes from body text up to a large heading, each labeled with its rem value, aligned to a common baseline.</desc>
+  <rect width="800" height="380" fill="#0a0a0a"/>
+
+  <line x1="60" y1="320" x2="760" y2="320" stroke="#4b5563" stroke-width="1"/>
+
+  <text x="70" y="320" font-family="sans-serif" font-weight="400" font-size="16" fill="#e5e5e5">Aa</text>
+  <text x="70" y="345" font-family="sans-serif" font-size="12" fill="#9ca3af">1rem — body</text>
+
+  <text x="160" y="320" font-family="sans-serif" font-weight="500" font-size="22" fill="#e5e5e5">Aa</text>
+  <text x="160" y="345" font-family="sans-serif" font-size="12" fill="#9ca3af">1.25rem — h4</text>
+
+  <text x="290" y="320" font-family="sans-serif" font-weight="600" font-size="30" fill="#f0e6c8">Aa</text>
+  <text x="290" y="345" font-family="sans-serif" font-size="12" fill="#9ca3af">1.5rem — h3</text>
+
+  <text x="440" y="320" font-family="sans-serif" font-weight="700" font-size="42" fill="#e8c766">Aa</text>
+  <text x="440" y="345" font-family="sans-serif" font-size="12" fill="#9ca3af">1.75rem — h2</text>
+
+  <text x="600" y="320" font-family="sans-serif" font-weight="800" font-size="62" fill="#d4af37">Aa</text>
+  <text x="600" y="345" font-family="sans-serif" font-size="12" fill="#9ca3af">2.5rem — h1</text>
+
+  <text x="400" y="60" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#9ca3af" letter-spacing="1">EACH STEP SCALES UP PROPORTIONALLY</text>
+</svg>
