@@ -973,7 +973,7 @@
     text-decoration: none;
     font-weight: 600;
     transition: 0.2s ease;
-	width:280px;
+	width:150px;
 }
 
 .btn-primary {
@@ -987,6 +987,7 @@
 }
 
 .btn-secondary {
+    background: transparent;
     border-color: rgba(255, 255, 255, 0.2);
     color: var(--white);
 }
