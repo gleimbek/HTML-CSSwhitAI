@@ -610,80 +610,38 @@ button {
 
 .btn {
 
-    display:
-        inline-flex;
-
-    align-items:
-        center;
-
-    justify-content:
-        center;
-
-    min-height:
-        48px;
-
-    padding:
-        0 20px;
-
-    border-radius:
-        8px;
-
-    font-size:
-        14px;
-
-    font-weight:
-        700;
-
-    transition:
-        var(--transition);
-
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: var(--transition);
 }
 
 
 .btn-primary {
-
-    background:
-        var(--primary);
-
-    color:
-        var(--white);
-
+    background: var(--primary);
+    color: var(--white);
 }
-
 
 .btn-primary:hover {
-
-    background:
-        var(--primary-dark);
-
-    transform:
-        translateY(-2px);
-
+    background: var(--primary-dark);
+    transform:  translateY(-2px);
 }
 
-
 .btn-secondary {
-
-    background:
-        var(--white);
-
-    color:
-        var(--text-dark);
-
-    border:
-        1px solid var(--border);
-
+    background: var(--white);
+    color: var(--text-dark);
+    border: 1px solid var(--border);
 }
 
 
 .btn-secondary:hover {
-
-    border-color:
-        var(--primary);
-
-    color:
-        var(--primary);
-
+    border-color: var(--primary);
+    color:  var(--primary);
 }
 
 
